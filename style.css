@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.d-block{
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.navbar{
+    margin-bottom: 2px;
+    background-color: rgb(0, 0, 0);
+}
+.carousel-inner{
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+.btn{
+    display: inline;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.btn:hover{
+    transform: translate(5px) scale(0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.card {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} 
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 1rem;
+}
+.rating {
+    color: #ffd700;
+    font-size: 1.2em;
+}
+.py-5{
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+    margin-top: 60px;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.sec-1{
+    padding: 0px 0px 0px 16px;
+}
+.me-2 {
+    padding: 0px 250px 0px 0px;
+}
+.fa-solid{
+    color: white;
+    padding: 0px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 24px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.fa-solid:hover{
+    transform: translate(5px) scale(0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);   
+}
+#cart-count{
+    text-align: center;
+    margin: 0px 50px 0px 0px;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+
